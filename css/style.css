@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    /*font-family: Arial, Helvetica, sans-serif;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#header{
+    margin-top: -57px;
+}
+
+div.nav-title{
+    background-color: black;
+    color: #fff;
+    height: 4em;
+}
+
+div.nav-title p {
+    font-size: 56px;
+}
+
+#header ul {
+    display: inline-block;
+    list-style: none;
+    width: 924px;
+    margin: 0;
+    margin-top: 1em;
+    padding: 0;
+}
+#header li {
+    float: left;
+    width: 70px;
+    padding-right: 2px;
+}
+
+#header li a {
+    display: block;
+    font-size: 18px;
+    padding: 8px 0 18px;
+    text-decoration: none;
+}
+
+/*Main Section*/
+#main {
+    padding: 0.2em;
+    padding-bottom: 6.5em;
+    position: relative;
+}
+
+#main #news-section {
+    background-color: dimgray;
+    padding: 1em;
+}
+
+
+#main #news-section .news-article{
+    background-color: #fff;
+    padding: 0.5em;
+}
+
+#main #news-section .news-article h1.show-case{
+    font-size: 3em;
+    font-family: Noto Sans;
+    font-weight: lighter;
+    background-color: black;
+    color: #fff;
+    width: 22%;
+}
+
+/*Footer Section*/
+#footer {
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
+
+#footer .container .copyright {
+    padding-top : 20px;
+    padding-bottom: 20px;
+}
+
+#footer .container .copyright p {
+    color: #fff;
+    text-align: center;
+}
